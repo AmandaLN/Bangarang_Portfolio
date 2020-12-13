@@ -1,18 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <body style="background-color:lightgreen;"></body>
-      <!-- Start Nav -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<head>
+  <title>Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <body style="background-color:lightgreen;"></body>
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <span class="navbar-brand mb-1 h1">Navbar</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,113 +36,121 @@
       </ul>
     </div>
   </nav>
-    <!-- End of Nav -->
-<!-- Start Contact Form -->
-<section class="mb-4" style="padding-left: 30px;">
+  <!-- End of Nav -->
+  <!-- Start Contact Form -->
+  <section class="mb-4" style="padding-left: 30px;">
 
-  <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
-  <!--Section description-->
-  <p class="text-center w-responsive mx-auto mb-5">Contact me today with any questions.</p>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Contact me today with any questions.</p>
 
-  <div class="row">
+    <div class="row">
 
       <!--Grid column-->
       <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-              <!--Grid row-->
-              <div class="row">
+          <!--Grid row-->
+          <div class="row">
 
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="name" name="name" class="form-control">
-                          <label for="name" class="">Your name</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control">
-                          <label for="email" class="">Your email</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="name" name="name" class="form-control">
+                <label for="name" class="">Your name</label>
               </div>
-              <!--Grid row-->
+            </div>
 
-              <!--Grid row-->
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control">
-                          <label for="subject" class="">Subject</label>
-                      </div>
-                  </div>
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Your email</label>
               </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-
-                      <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                          <label for="message">Your message</label>
-                      </div>
-
-                  </div>
-              </div>
-              <!--Grid row-->
-
-          </form>
-
-          <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
           </div>
-          <div class="status"></div>
+
+
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class="">Subject</label>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+
+              <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message">Your message</label>
+              </div>
+
+            </div>
+          </div>
+          <!--Grid row-->
+
+        </form>
+
+        <div class="text-center text-md-left">
+          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
       </div>
-      <!--Grid column-->
+
 
       <!--Grid column-->
       <div class="col-md-3 text-center">
-          <ul class="list-unstyled mb-0">
-              <li><i class="fas fa-map-marker-alt fa-2x">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
-                </svg>
-              </i>
-            
-                  <p>Sanford, FL 32771, USA</p>
-              </li>
+        <ul class="list-unstyled mb-0">
+          <li><i class="fas fa-map-marker-alt fa-2x">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-compass-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z" />
+              </svg>
+            </i>
 
-              <li><i class="fas fa-envelope mt-4 fa-2x">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                </svg>
-                </i>
-              
-                  <p>Amandaln4311@gmail.com</p>
-              </li>
-          </ul>
+            <p>Sanford, FL 32771, USA</p>
+          </li>
+
+          <li><i class="fas fa-envelope mt-4 fa-2x">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+              </svg>
+            </i>
+
+            <p>Amandaln4311@gmail.com</p>
+          </li>
+        </ul>
       </div>
       <!--Grid column-->
 
-  </div>
+    </div>
 
-</section>
-<!--End of Contact Form-->
+  </section>
+  <!--End of Contact Form-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
