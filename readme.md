@@ -13,7 +13,7 @@ CSS/Bootstrap
 
 ![Portfolio screenshot](:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/portfolio.png)
 
-![Contact screenshot](https://photos.google.com/photo/AF1QipO3_ek-Ct9TD16vJjBJGTayUkGRDeyH6jPNolmj)
+![Contact screenshot](/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/contact.png)
 
 
 ## Maintainer
