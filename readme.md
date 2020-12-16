@@ -8,11 +8,10 @@ In this assignment I created a responsive portfolio website. I first had to crea
 HTML
 CSS/Bootstrap
 
-
-
 ## Usage
-
-
+![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\about.png]
+![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\portfolio.png]
+![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\contact.png]
 
 ## Maintainer
 Amanda Nelson
