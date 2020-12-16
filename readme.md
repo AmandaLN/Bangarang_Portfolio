@@ -9,11 +9,11 @@ HTML
 CSS/Bootstrap
 
 ## Usage
-![About screenshot](C:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/about.png)
+![About screenshot](images/about.png)
 
-![Portfolio screenshot](C:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/portfolio.png)
+![Portfolio screenshot](images/portfolio.png)
 
-![COntact screenshot](C:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/contact.png)
+![Contact screenshot](/images/contact.png)
 
 
 ## Maintainer
