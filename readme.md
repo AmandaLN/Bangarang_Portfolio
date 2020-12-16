@@ -11,9 +11,8 @@ CSS/Bootstrap
 
 
 ## Usage
-![C:\Users\amand\OneDrive\Pictures\Screenshots\about]
-![C:\Users\amand\OneDrive\Pictures\Screenshots\portfolio]
-![C:\Users\amand\OneDrive\Pictures\Screenshots\contact]
+
+
 
 ## Maintainer
 Amanda Nelson
