@@ -12,6 +12,7 @@ CSS/Bootstrap
 ![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\about.png]
 ![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\portfolio.png]
 ![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\contact.png]
+![alt text](https://github.com/[amandaLN]/[Bangarang_Portfolio]/blob/[main]/contact.jpg?raw=true)
 
 ## Maintainer
 Amanda Nelson
