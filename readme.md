@@ -9,10 +9,10 @@ HTML
 CSS/Bootstrap
 
 ## Usage
-![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\images\about.jpg.png]
-![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\images\portfolio.jpg.png]
-![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\images\contact.jpg.png]
-![C:\Users\amand\Documents\ucfcodingbootcamp\Homework\Bangarang_Portfolio\assets\](images\contact.jpg.png)
+![C:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/about.jpg.png]
+![C:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/portfolio.jpg.png]
+![C:/Users/amand/Documents/ucfcodingbootcamp/Homework/Bangarang_Portfolio/assets/images/contact.jpg.png]
+
 
 ## Maintainer
 Amanda Nelson
