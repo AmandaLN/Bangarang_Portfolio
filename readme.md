@@ -11,7 +11,7 @@ CSS/Bootstrap
 ## Usage
 ![About screenshot](./assets/images/about.png)
 
-![Portfolio screenshot](./assets/images/portfolio.png)
+![Portfolio screenshot](./assets/images/updateport.png)
 
 ![Contact screenshot](./assets/images/contact.png)
 
